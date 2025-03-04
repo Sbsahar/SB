@@ -279,6 +279,15 @@ def handle_keep(call):
     except Exception as e:
         print(f"خطأ في الاحتفاظ بالرسلة: {e}")
 
-# تشغيل
-print("✅ البوت يعمل الآن...")
-bot.polling()
+def main():
+    while True:
+        try:
+            print("تم تشغيل البوت. انتظر استقبال الرسائل...")
+            bot.polling(none_stop=True)
+        except Exception as e:
+            print("توقف البوت عن العمل بسبب الخطأ:", e)
+            print("إعادة تشغيل البوت خلال 5 ثوانٍ...")
+            time.sleep(5)
+
+if __name__ == "__main__":
+    main()
