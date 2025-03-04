@@ -1,5 +1,5 @@
 
-TOKEN = "7707935653:AAG96LC9Z85IFBCdFWij9dVBv1X_-sTAxfc"
+TOKEN = "7707935653:AAF5Uh1ZJ_9L2ElOevipInjwlJUe5LTQGDc"
 CHANNEL_ID = "@QUEEN_SH963"  # معرف القناة بدون روابط
 ADMIN_ID = 6789179634  # ضع معرف المطور هنا
 
